@@ -1,5 +1,4 @@
 <?php
-	echo "충돌예방1";
 	echo "안녕";
 	echo "방가";
 	echo "감자탕";
