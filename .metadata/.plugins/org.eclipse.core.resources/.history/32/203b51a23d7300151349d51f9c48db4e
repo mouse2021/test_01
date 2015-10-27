@@ -1,0 +1,15 @@
+﻿<?php
+	abstract class A { // 추상클래스
+		abstract public function test();
+	}
+	class B extends A {
+		public function test() {
+			echo "test";
+		}
+	}
+	if (class_exists(C) == 0) {
+		echo "A라는 클래스는 없습니다";
+	} else if (class_exists(A) == 1) {
+		echo "A라는 클래스는 있습니다";
+	}
+?>

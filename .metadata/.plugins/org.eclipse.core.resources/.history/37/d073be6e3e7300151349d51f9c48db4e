@@ -1,0 +1,12 @@
+﻿<?php
+	abstract class A { // 추상클래스
+		abstract public function test();
+	}
+	class B extends A {
+		public function test() {
+			echo "test";
+		}
+	}
+	$a = new B();
+	method_exists($a, test);
+?>

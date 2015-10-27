@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;style.css&apos; to &apos;css&apos;" description="Move &apos;style.css&apos; to &apos;css&apos;" destination="css" element1="/ch7_5/style.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1443607729657" updateReferences="true"/>
+</session>

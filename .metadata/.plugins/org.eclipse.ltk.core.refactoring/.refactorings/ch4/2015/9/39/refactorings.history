@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;addemail.html, addemail.php, blankface.jpg, elvislogo.gif, removeemail.html, removeemail.php, sendemail.html, sendemail.php, style.css&apos; to &apos;ch4&apos;" description="Move 9 resources to &apos;ch4&apos;" destination="/ch4" element1="makemeelvis/addemail.html" element2="makemeelvis/addemail.php" element3="makemeelvis/blankface.jpg" element4="makemeelvis/elvislogo.gif" element5="makemeelvis/removeemail.html" element6="makemeelvis/removeemail.php" element7="makemeelvis/sendemail.html" element8="makemeelvis/sendemail.php" element9="makemeelvis/style.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="9" stamp="1443238301390" updateReferences="true"/>
+</session>

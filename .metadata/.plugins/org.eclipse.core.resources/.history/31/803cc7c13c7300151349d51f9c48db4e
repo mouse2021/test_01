@@ -1,0 +1,29 @@
+﻿<?php
+	class A {
+		public $a;
+		// function A() {
+		function __construct() {
+			echo "A 생성자다 야호<br/>";
+		}
+		function __destruct() {
+			echo "A 소멸자당  야호<br/>";
+		}
+		function setA($a) {
+			$this->a = $a;
+		}
+		function getA() {
+			return $this->a;
+		}
+	}
+	class B extends A {
+		function __construct() {
+			echo "B 생성자다 야호<br/>";
+			parent::__construct();
+		}
+		function __destruct() {
+			echo "B 소멸자당  야호<br/>";
+			parent::__destruct();
+		}
+	}
+	$b = new B();
+?>

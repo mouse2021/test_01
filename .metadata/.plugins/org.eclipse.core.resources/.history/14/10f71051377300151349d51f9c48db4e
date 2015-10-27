@@ -1,0 +1,12 @@
+﻿<?php
+	class A {
+		var $a;
+		function setA($a) {
+			$this->a = $a;
+		}
+		function getA() {
+			return $this->a;
+		}
+	}
+	echo get_class(A);
+?>

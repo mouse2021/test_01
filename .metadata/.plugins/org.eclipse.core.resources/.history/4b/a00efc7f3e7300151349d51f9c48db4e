@@ -1,0 +1,16 @@
+﻿<?php
+	abstract class A { // 추상클래스
+		abstract public function test();
+	}
+	class B extends A {
+		public function test() {
+			echo "test";
+		}
+	}
+	$a = new B();
+	if (method_exists($a, test) == 1) {
+		echo "$a 객체에는 test 라는 메소드가 있습니다";
+	} else if (method_exists($a, test) == 0) {
+		echo "$a 객체에는 test 라는 메소드가 없습니다";
+	}
+?>

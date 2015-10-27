@@ -1,0 +1,29 @@
+﻿<?php
+	class A {
+		var $a;
+		var $b;
+		function __construct() {
+			echo "A 생성자다 야호<br/>";
+		}
+		function __destruct() {
+			echo "A 소멸자당  야호<br/>";
+		}
+		function setA($a) {
+			$this->a = $a;
+		}
+		function getA() {
+			return $this->a;
+		}
+		function setB($b) {
+			$this->b = $b;
+		}
+		function getB() {
+			return $this->b;
+		}
+	}
+	$a = new A();
+	$a->setA(10);
+	$a->setB(20);
+	echo $a->getA() . '<br/>';
+	echo $a->getB() . '<br/>';
+?>

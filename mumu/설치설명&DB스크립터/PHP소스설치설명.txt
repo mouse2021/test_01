@@ -1,0 +1,48 @@
+PHP 샘플 소스 설치설명:
+
+1. php_sample.sql 파일을 이용하여 소스에서 사용할 모든 테이블을 생성합니다.
+
+   mysql디렉토리의 bin 디렉토리에 해당 파일(php_sample.sql)을 옮긴후
+   
+   ./mysql -u아이디 -p패스워드 본인의디비명 < php_sample.sql
+   
+   예) mysql -uroot php_sample < php_sample.sql  (책의 예대로 설치하였을 경우 루트권한으로)
+
+   이라고 실행하면 우편번호 디비를 포함한 책에서 쓰고있는 모든 테이블이 자동 생성 됩니다.
+   [참고] 여기서 말하는 아이디는 mysql에 접속할수 있는 아이디 이며 패스워드 역시 mysql 패스워드입니다.
+
+
+
+2. 웹의 루트 디렉토리에 부록 CD에 있는 PHP 예제 소스를 모두 복사해 둡니다.
+   
+   참고로 웹의 루트라는 것은 APACHE + PHP + MYSQL을 따로 설치했다면 
+   "\Program Files\Apache Group\Apache2\htdocs" 
+   와 같이 아파치 설치 경로의 htdocs가 기본적인 웹 루트가 되고
+   
+   APM_SETUP5 프로그램을 설치하였다면 
+   "\APM_Setup\htdocs" 가 웹 루트에 해당됩니다.
+
+
+
+3. 복사한 디렉토리중 
+
+upload/a_image
+upload/b_image
+upload/p_image/b
+upload/p_image/m
+upload/p_image/s       
+        
+디렉토리는 쓰기 권한이 부여되어야 합니다.
+
+- 리눅스 -
+운영체제가 리눅스인 경우에는 upload 디렉토리가 보이는 곳으로 간 후에
+chmod -R 777 upload 
+명령을 실행하시면 해당 디렉토리의 권한을 쓰기 권한으로 줄수 있습니다. 
+
+
+이상의 작업을 수행하신 후에 브라우져에서 
+
+http://localhost/index.php 
+
+라고 입력하시면 현재 책에서 사용되고 있는 모든 예제 샘플을 모두 확인하실 수 있습니다.
+

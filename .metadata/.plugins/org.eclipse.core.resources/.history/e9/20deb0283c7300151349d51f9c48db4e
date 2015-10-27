@@ -1,0 +1,23 @@
+﻿<?php
+	class A {
+		var $a;
+		var $b;
+		function setA($a) {
+			$this->a = $a;
+		}
+		function getA() {
+			return $this->a;
+		}
+		function setB($b) {
+			$this->b = $b;
+		}
+		function getB() {
+			return $this->b;
+		}
+	}
+	$a = new A();
+	$a->setA(10);
+	$a->setB(20);
+	echo $a->getA() . '<br/>';
+	echo $a->getB();
+?>
