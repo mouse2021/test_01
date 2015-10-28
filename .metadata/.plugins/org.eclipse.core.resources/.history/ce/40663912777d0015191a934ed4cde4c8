@@ -14,6 +14,9 @@
 	echo "충돌예방2";
 	echo "푸쉬추가";
 	echo "푸쉬추가2";
+<<<<<<< Updated upstream
 	echo "긴급수정완료";
+=======
 	echo "스테쉬";
+>>>>>>> Stashed changes
 ?>
